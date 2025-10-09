@@ -2,9 +2,6 @@
 
 > **AI-powered CLI tool for analyzing GitHub trending repositories and URL metadata**
 
-[![NPM Version](https://img.shields.io/npm/v/gh-explorer.svg)](https://www.npmjs.com/package/gh-explorer)
-[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
-
 GhExplorer combines the power of AI with web scraping to give developers meaningful insights about URLs and GitHub repositories. Whether you need to quickly understand what a project is about or stay updated with trending repositories in your favorite technologies, GhExplorer simplifies the process through a clean CLI interface.
 
 ## 🚀 Core Features

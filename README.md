@@ -1,8 +1,8 @@
 # GhExplorer
 
-> **AI-powered CLI tool for analyzing GitHub trending repositories and URL metadata**
+> **AI-powered CLI and agent skill for analyzing GitHub trending repositories and URL metadata**
 
-GhExplorer combines the power of AI with web scraping to give developers meaningful insights about URLs and GitHub repositories. Whether you need to quickly understand what a project is about or stay updated with trending repositories in your favorite technologies, GhExplorer simplifies the process through a clean CLI interface.
+GhExplorer combines the power of AI with web scraping to give developers meaningful insights about URLs and GitHub repositories. Use it directly from the terminal, or install the bundled agent skill so your AI coding agent can quickly fetch and summarize GitHub Trending repositories for you.
 
 ## 🚀 Core Features
 
@@ -11,6 +11,27 @@ GhExplorer combines the power of AI with web scraping to give developers meaning
 - **Multiple Output Formats**: Support for JSON, Table, and Markdown formats
 - **Intelligent Filtering**: Focus on repositories relevant to your interests
 - **AI-Powered Analysis**: Generate summaries, extract key points, and categorize content
+- **Agent Skill Support**: Install as a skill so agents can check GitHub Trending with `npx`
+
+## ⚡ Quick Start
+
+Use directly from the terminal:
+
+```bash
+npx gh-explorer
+```
+
+Or install the agent skill:
+
+```bash
+npx skills add zjy365/gh-explorer
+```
+
+Then ask your agent:
+
+```text
+Use $github-trending to show me today's top GitHub Trending repositories.
+```
 
 ## 📦 Installation
 
@@ -30,13 +51,9 @@ npx gh-explorer
 
 ### Agent Skill
 
-Install the bundled agent skill with the `skills` CLI:
-
 ```bash
-npx skills add zjy365/gh-explorer
+Use $github-trending to show me today's top GitHub Trending repositories.
 ```
-
-After installation, ask your agent to use `$github-trending` to fetch and summarize current GitHub Trending repositories.
 
 ### GitHub Trending
 

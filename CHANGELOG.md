@@ -1,5 +1,11 @@
 # gh-explorer
 
+## 1.0.3
+
+### Patch Changes
+
+- 1a2269c: fix truncate
+
 ## 1.0.2
 
 ### Patch Changes

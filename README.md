@@ -28,6 +28,16 @@ npx gh-explorer
 
 ## 📝 Usage
 
+### Agent Skill
+
+Install the bundled agent skill with the `skills` CLI:
+
+```bash
+npx skills add zjy365/gh-explorer
+```
+
+After installation, ask your agent to use `$github-trending` to fetch and summarize current GitHub Trending repositories.
+
 ### GitHub Trending
 
 ```bash

@@ -17,7 +17,8 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "skills"
   ],
   "scripts": {
     "dev": "tsc --watch",
@@ -49,7 +50,9 @@
     "cli",
     "analysis",
     "ai",
-    "developer-tools"
+    "developer-tools",
+    "skills",
+    "agent-skills"
   ],
   "homepage": "https://github.com/zjy365/gh-explorer",
   "bugs": {

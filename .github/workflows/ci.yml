@@ -30,7 +30,7 @@ jobs:
       - name: run tests
         run: pnpm run test
       - name: coverage
-        uses: codecov/codecov-action@v4
+        uses: codecov/codecov-action@v7
         if: github.actor != 'dependabot[bot]'
         with:
           fail_ci_if_error: true
